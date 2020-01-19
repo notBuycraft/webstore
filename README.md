@@ -14,7 +14,7 @@ Sample Request:
 `POST /api/shop/list/token`
 ```json
 {
-"params": {"name":  "Paco's shop"}
+    "params": {"name":  "Paco's shop"}
 }
 ```
 Response:
@@ -49,17 +49,17 @@ Sample Request:
 `POST /api/shop/create/blah`
 ```json
 {
-"name": "Paco's one-stop whore shop",
-"owner": "83297984h2398dh98he928h",
-"desc": "Come one, come all to the whore store."
+    "name": "Paco's one-stop whore shop",
+    "owner": "83297984h2398dh98he928h",
+    "desc": "Come one, come all to the whore store."
 }
 ```
 Response:
 ```json
 {
-"status": "201",
-"message": "ok",
-"objectId": "2398d29j9d8hd928hd928hd298d" 
+    "status": "201",
+    "message": "ok",
+    "objectId": "2398d29j9d8hd928hd928hd298d" 
 }
 ```
 
@@ -76,7 +76,7 @@ Sample Request:
 `POST /api/product/list/token`
 ```json
 {
-"params": {"shop":  "5e24ca2febbd546ef14d952f"}
+    "params": {"shop":  "5e24ca2febbd546ef14d952f"}
 }
 ```
 Response:
@@ -119,19 +119,19 @@ Sample Request:
 `POST /api/product/create/blah`
 ```json
 {
-"name": "Assstick",
-"desc": "You just put it on your ass",
-"price": "9.99",
-"action": "https://google.com/amp",
-"thumbnail": "https://placehold.it/1280x720",
-"shop": "5e24ca2febbd546ef14d952f"
+    "name": "Assstick",
+    "desc": "You just put it on your ass",
+    "price": "9.99",
+    "action": "https://google.com/amp",
+    "thumbnail": "https://placehold.it/1280x720",
+    "shop": "5e24ca2febbd546ef14d952f"
 }
 ```
 Response:
 ```json
 {
-"status": "201",
-"message": "ok",
-"objectId": "2398d29j9d8hd928hd928hd298d" 
+    "status": "201",
+    "message": "ok",
+    "objectId": "2398d29j9d8hd928hd928hd298d" 
 }
 ```
