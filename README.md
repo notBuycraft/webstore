@@ -3,7 +3,7 @@ Shaun made the perms messed up for the actual store repo...
 
 ## Shop
 ## List shops
-`POST /api/shop/list/[token]`
+`GET /api/shop/list/[token]`
 
 Parameter | Type     | Notes
 --------- | -------  | -----
@@ -11,7 +11,7 @@ params    | JSON     | Not Required
 
 Sample Request: 
 
-`POST /api/shop/list/token`
+`GET /api/shop/list/token`
 ```json
 {
     "params": {"name":  "Paco's shop"}
@@ -65,7 +65,7 @@ Response:
 
 ## Product
 ## List products
-`POST /api/product/list/[token]`
+`GET /api/product/list/[token]`
 
 Parameter | Type     | Notes
 --------- | -------  | -----
@@ -73,7 +73,7 @@ params    | JSON     | Not Required
 
 Sample Request: 
 
-`POST /api/product/list/token`
+`GET /api/product/list/token`
 ```json
 {
     "params": {"shop":  "5e24ca2febbd546ef14d952f"}
@@ -107,10 +107,10 @@ Parameter | Type     | Notes
 --------- | -------  | -----
 name      | String   | Required
 desc      | String   | 
-price      | Number   | 
-action      | String   | Link
-thumbnail      | String   | Link to image
-shop      | ObjectId   |
+price     | Number   | 
+action    | String   | Link
+thumbnail | String   | Link to image
+shop      | ObjectId |
 
  
 
